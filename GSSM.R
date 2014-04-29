@@ -13,10 +13,16 @@
 ##            using the Gaussian Spectral Synthesis Method (GSSM).
 ## Updated  : pfc@stat.osu.edu, April 2014.
 ##
-## Reference: pp. 291-292, D. B. Percival and A. T. Walden. Wavelet
-##            Methods for Time Series Analysis. Cambridge University
-##            Press, Cambridge, 2000 (P&W).
-## ======================================================================
+## References:
+##
+## 1. pp. 291-292, D. B. Percival and A. T. Walden. Wavelet Methods
+##    for Time Series Analysis. Cambridge University Press, Cambridge,
+##    2000 (P&W)
+##
+## 2. D. B. Percival (1992), Simulating Gaussian Random Processes with
+##     Specified Spectra, Computing Science and Statistics, 24,
+##     534-538.
+##  ======================================================================
 
 
 
