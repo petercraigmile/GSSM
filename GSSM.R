@@ -9,7 +9,7 @@
 
 ## ======================================================================
 ## File     : GSSM.R
-## Contains : R code to simulate stationary Gaussian processes
+## Contains : R code to approximately simulate stationary Gaussian processes
 ##            using the Gaussian Spectral Synthesis Method (GSSM).
 ## Updated  : pfc@stat.osu.edu, April 2014.
 ##
