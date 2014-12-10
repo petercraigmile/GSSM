@@ -11,7 +11,7 @@
 ## File     : GSSM.R
 ## Contains : R code to approximately simulate stationary Gaussian processes
 ##            using the Gaussian Spectral Synthesis Method (GSSM).
-## Updated  : pfc@stat.osu.edu, April 2014.
+## Updated  : pfc@stat.osu.edu, Dec 2014.
 ##
 ## References:
 ##
@@ -26,7 +26,7 @@
 
 
 
-GSSM <- function (N, the.sdf, L=4, LM=FALSE, sum.acvs, ...) {
+GSSM <- function (N, the.sdf, L=4, sum.acvs, ...) {
   ## ======================================================================
   ## Using the Gaussian Spectral Synthesis Method (GSSM), approximately
   ## simulate a mean zero stationary Gaussian process of length 'N*L',
@@ -48,7 +48,7 @@ GSSM <- function (N, the.sdf, L=4, LM=FALSE, sum.acvs, ...) {
   ## the integral calculation (if no ACVS is available) needs to be
   ## numerically evaluated 'with sufficient care'.
   ##
-  ## Peter Craigmile, pfc@stat.osu.edu, Apr 2014
+  ## Peter Craigmile, pfc@stat.osu.edu, Dec 2014
   ## ======================================================================
   
   M <- N*L
